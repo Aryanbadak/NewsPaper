@@ -1,0 +1,153 @@
+.Ulist {
+  list-style: none;
+}
+
+.bgColor {
+  background-color: hsl(214, 49%, 51%);
+}
+
+.Ulist li {
+  cursor: pointer;
+  color: white;
+}
+
+.newslogo {
+  width: 40px;
+  padding: 3px;
+  background-color: antiquewhite;
+  border-radius: 50%;
+}
+
+.light {
+  color: white;
+}
+
+.line {
+  height: 1px;
+  background-color: white;
+  transform: translateX(-100px);
+}
+
+.navlink {
+  overflow: hidden;
+}
+
+.navlink:hover {
+  .line {
+    display: block;
+    transform: translateX(1px);
+    transition-duration: .6s;
+  }
+}
+
+.line1 {
+  height: 1px;
+  background-color: white;
+  transform: translateX(-100px);
+}
+
+.navlink1 {
+  overflow: hidden;
+}
+
+.navlink1:hover {
+  .line1 {
+    display: block;
+    transform: translateX(1px);
+    transition-duration: .6s;
+  }
+}
+
+.setMg {
+  margin: 50px 0 50px 0;
+}
+
+.uparrow-container {
+  width: 80px;
+  height: 80px;
+  background-color: hsl(214, 49%, 51%);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  right: 30px;
+  bottom: 120px;
+}
+
+.uparrow-container img {
+  width: 60px;
+  height: 60px;
+}
+
+.arrow {
+  width: 50px;
+  color: #FFF;
+}
+
+@media (max-width:1000px) {
+  .line {
+    height: 1px;
+    background-color: white;
+    transform: translateX(-1000px);
+  }
+
+  .navlink {
+    overflow: hidden;
+  }
+
+  .navlink:hover {
+    .line {
+      display: block;
+      transform: translateX(-830px);
+      transition-duration: .6s;
+    }
+  }
+
+  .nav-position {
+    position: relative;
+  }
+
+  .setMg {
+    margin: 50px 0 50px 0;
+  }
+}
+
+@media (max-width:600px) {
+  .setMg {
+    margin: 90px 0 40px 0;
+  }
+
+  .uparrow-container {
+    width: 50px;
+    height: 50px;
+    background-color: hsl(214, 49%, 51%);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 30px;
+    bottom: 120px;
+  }
+}
+
+@media (max-width:700px) {
+  .uparrow-container {
+    width: 50px;
+    height: 50px;
+    background-color: hsl(214, 49%, 51%);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 20px;
+    bottom: 95px;
+  }
+
+  .uparrow-container img {
+    width: 30px;
+    height: 30px;
+  }
+}
